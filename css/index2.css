@@ -216,7 +216,7 @@ video, .video {
 .numbers-highlights h3 {
     color: var(--red);
     font-size: 5vw;
-    letter-spacing: -2w !important;
+    letter-spacing: -2vw !important;
 }
 
 .numbers-highlights h4 {
@@ -247,7 +247,7 @@ video, .video {
 }
 
 .cta-container {
-    grid-gap: flex;
+    grid-gap: inherit;
     justify-content: start;
     align-items: center;
     grid-gap: 2.5vw;
@@ -339,7 +339,7 @@ video, .video {
     }
 
     .red-glow {
-        background: #3A0F24;
+        background: rgba(0, 166, 71, 0.73);
         border-radius: 20vw;
         width: 40vw;
         height: 40vw;

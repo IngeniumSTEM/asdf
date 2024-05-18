@@ -42,7 +42,7 @@ body {
     color: var(--beige);
     font-size: 1vw;
     line-height: 1.3;
-    overflow: -moz-scrollbars-none;
+    overflow: hidden;
     -ms-overflow-style: none;
     font-family: 'DM Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -135,7 +135,7 @@ h5 {
 h6 {
     text-transform: uppercase;
     line-height: 1.5;
-    color: var(--white);
+    color: white;
     font-size: 0.8em;
     letter-spacing: 0.1vw;
 }
@@ -283,7 +283,7 @@ h1 .split-child {
 .eyebrow {
     display: flex;
     border-radius: 50vw;
-    border: 0.8px solid var(--white);
+    border: 0.8px solid white;
     text-transform: uppercase;
     position: absolute;
     justify-content: center;
@@ -295,7 +295,7 @@ h1 .split-child {
 }
 
 .eyebrow h5 {
-    color: var(--white) !important;
+    color: white !important;
     letter-spacing: 0.1vw;
     font-size: 0.7em;
 }
@@ -409,7 +409,7 @@ h1 .split-child {
     h6 {
         text-transform: uppercase;
         line-height: 1.5;
-        color: var(--white);
+        color: white;
         font-size: 2.5em;
         letter-spacing: 0.1vw;
     }
