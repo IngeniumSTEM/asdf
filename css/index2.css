@@ -216,7 +216,7 @@ video, .video {
 .numbers-highlights h3 {
     color: var(--red);
     font-size: 5vw;
-    letter-spacing: -0.75vw !important;
+    letter-spacing: -0.25vw !important;
 }
 
 .numbers-highlights h4 {
